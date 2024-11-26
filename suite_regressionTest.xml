@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="suite_regressionTest">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="ess.CreateNewProductTest"/>
+      <class name="ess.CreateNewVendorProposalTest"/>
+      <class name="ess.CreateNewSalesOrderTest"/>
+      <class name="ess.LoginToApplicationTest"/>
+      <class name="ess.CreateThirdPartyTest"/>
+      <class name="ess.CreateNewContactTest"/>
+      <class name="ess.CreateNewWareHouseTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- suite_regressionTest -->

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="19" passed="7" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Logged in to Application: ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-26T10:05:06 IST" name="suite_regressionTest" finished-at="2024-11-26T10:06:23 IST" duration-ms="76697">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateNewContactTest.createNewContact()[pri:0, instance:ess.CreateNewContactTest@34f7cfd9]" name="createNewContact" class="ess.CreateNewContactTest"/>
+        <method signature="CreateNewSalesOrderTest.createSalesOrder()[pri:0, instance:ess.CreateNewSalesOrderTest@68c72235]" name="createSalesOrder" class="ess.CreateNewSalesOrderTest"/>
+        <method signature="CreateNewVendorProposalTest.newVendorProposal()[pri:0, instance:ess.CreateNewVendorProposalTest@6b8ca3c8]" name="newVendorProposal" class="ess.CreateNewVendorProposalTest"/>
+        <method signature="CreateThirdPartyTest.createThirdParties()[pri:0, instance:ess.CreateThirdPartyTest@3a6bb9bf]" name="createThirdParties" class="ess.CreateThirdPartyTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="CreateNewProductTest.createNewProduct()[pri:0, instance:ess.CreateNewProductTest@26275bef]" name="createNewProduct" class="ess.CreateNewProductTest"/>
+        <method signature="LoginToApplicationTest.loginToApplication()[pri:0, instance:ess.LoginToApplicationTest@10959ece]" name="loginToApplication" class="ess.LoginToApplicationTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2024-11-26T10:05:06 IST" name="Test" finished-at="2024-11-26T10:06:23 IST" duration-ms="76697">
+      <class name="ess.CreateThirdPartyTest">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:ess.CreateThirdPartyTest@3a6bb9bf]" started-at="2024-11-26T10:05:50 IST" name="configBeforeClass" finished-at="2024-11-26T10:05:51 IST" duration-ms="1650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configureBeforeMethod()[pri:0, instance:ess.CreateThirdPartyTest@3a6bb9bf]" started-at="2024-11-26T10:05:51 IST" name="configureBeforeMethod" finished-at="2024-11-26T10:05:54 IST" duration-ms="2271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBeforeMethod -->
+        <test-method signature="createThirdParties()[pri:0, instance:ess.CreateThirdPartyTest@3a6bb9bf]" started-at="2024-11-26T10:05:54 IST" name="createThirdParties" finished-at="2024-11-26T10:05:56 IST" duration-ms="2113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createThirdParties -->
+        <test-method is-config="true" signature="configureAfterMethod()[pri:0, instance:ess.CreateThirdPartyTest@3a6bb9bf]" started-at="2024-11-26T10:05:56 IST" name="configureAfterMethod" finished-at="2024-11-26T10:06:00 IST" duration-ms="4155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:ess.CreateThirdPartyTest@3a6bb9bf]" started-at="2024-11-26T10:06:00 IST" name="configAfterClass" finished-at="2024-11-26T10:06:00 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+      </class> <!-- ess.CreateThirdPartyTest -->
+      <class name="ess.CreateNewContactTest">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:ess.CreateNewContactTest@34f7cfd9]" started-at="2024-11-26T10:06:00 IST" name="configBeforeClass" finished-at="2024-11-26T10:06:03 IST" duration-ms="2563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configureBeforeMethod()[pri:0, instance:ess.CreateNewContactTest@34f7cfd9]" started-at="2024-11-26T10:06:03 IST" name="configureBeforeMethod" finished-at="2024-11-26T10:06:04 IST" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBeforeMethod -->
+        <test-method signature="createNewContact()[pri:0, instance:ess.CreateNewContactTest@34f7cfd9]" started-at="2024-11-26T10:06:04 IST" name="createNewContact" finished-at="2024-11-26T10:06:07 IST" duration-ms="2633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContact -->
+        <test-method is-config="true" signature="configureAfterMethod()[pri:0, instance:ess.CreateNewContactTest@34f7cfd9]" started-at="2024-11-26T10:06:07 IST" name="configureAfterMethod" finished-at="2024-11-26T10:06:11 IST" duration-ms="4254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:ess.CreateNewContactTest@34f7cfd9]" started-at="2024-11-26T10:06:11 IST" name="configAfterClass" finished-at="2024-11-26T10:06:11 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+      </class> <!-- ess.CreateNewContactTest -->
+      <class name="ess.CreateNewSalesOrderTest">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:ess.CreateNewSalesOrderTest@68c72235]" started-at="2024-11-26T10:05:30 IST" name="configBeforeClass" finished-at="2024-11-26T10:05:32 IST" duration-ms="1923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configureBeforeMethod()[pri:0, instance:ess.CreateNewSalesOrderTest@68c72235]" started-at="2024-11-26T10:05:32 IST" name="configureBeforeMethod" finished-at="2024-11-26T10:05:34 IST" duration-ms="1658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBeforeMethod -->
+        <test-method signature="createSalesOrder()[pri:0, instance:ess.CreateNewSalesOrderTest@68c72235]" started-at="2024-11-26T10:05:34 IST" name="createSalesOrder" finished-at="2024-11-26T10:05:37 IST" duration-ms="3373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSalesOrder -->
+        <test-method is-config="true" signature="configureAfterMethod()[pri:0, instance:ess.CreateNewSalesOrderTest@68c72235]" started-at="2024-11-26T10:05:37 IST" name="configureAfterMethod" finished-at="2024-11-26T10:05:42 IST" duration-ms="4225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:ess.CreateNewSalesOrderTest@68c72235]" started-at="2024-11-26T10:05:42 IST" name="configAfterClass" finished-at="2024-11-26T10:05:42 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+      </class> <!-- ess.CreateNewSalesOrderTest -->
+      <class name="ess.CreateNewVendorProposalTest">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:ess.CreateNewVendorProposalTest@6b8ca3c8]" started-at="2024-11-26T10:05:22 IST" name="configBeforeClass" finished-at="2024-11-26T10:05:24 IST" duration-ms="2690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configureBeforeMethod()[pri:0, instance:ess.CreateNewVendorProposalTest@6b8ca3c8]" started-at="2024-11-26T10:05:24 IST" name="configureBeforeMethod" finished-at="2024-11-26T10:05:26 IST" duration-ms="1182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBeforeMethod -->
+        <test-method signature="newVendorProposal()[pri:0, instance:ess.CreateNewVendorProposalTest@6b8ca3c8]" started-at="2024-11-26T10:05:26 IST" name="newVendorProposal" finished-at="2024-11-26T10:05:26 IST" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newVendorProposal -->
+        <test-method is-config="true" signature="configureAfterMethod()[pri:0, instance:ess.CreateNewVendorProposalTest@6b8ca3c8]" started-at="2024-11-26T10:05:26 IST" name="configureAfterMethod" finished-at="2024-11-26T10:05:30 IST" duration-ms="3954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:ess.CreateNewVendorProposalTest@6b8ca3c8]" started-at="2024-11-26T10:05:30 IST" name="configAfterClass" finished-at="2024-11-26T10:05:30 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+      </class> <!-- ess.CreateNewVendorProposalTest -->
+      <class name="ess.CreateNewProductTest">
+        <test-method is-config="true" signature="configBeforeSuite()[pri:0, instance:ess.CreateNewProductTest@26275bef]" started-at="2024-11-26T10:05:06 IST" name="configBeforeSuite" finished-at="2024-11-26T10:05:06 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeSuite -->
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:ess.CreateNewProductTest@26275bef]" started-at="2024-11-26T10:05:06 IST" name="configBeforeClass" finished-at="2024-11-26T10:05:12 IST" duration-ms="6009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configureBeforeMethod()[pri:0, instance:ess.CreateNewProductTest@26275bef]" started-at="2024-11-26T10:05:12 IST" name="configureBeforeMethod" finished-at="2024-11-26T10:05:14 IST" duration-ms="1077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBeforeMethod -->
+        <test-method signature="createNewProduct()[pri:0, instance:ess.CreateNewProductTest@26275bef]" started-at="2024-11-26T10:05:14 IST" name="createNewProduct" finished-at="2024-11-26T10:05:17 IST" duration-ms="3940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewProduct -->
+        <test-method is-config="true" signature="configureAfterMethod()[pri:0, instance:ess.CreateNewProductTest@26275bef]" started-at="2024-11-26T10:05:17 IST" name="configureAfterMethod" finished-at="2024-11-26T10:05:22 IST" duration-ms="4109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:ess.CreateNewProductTest@26275bef]" started-at="2024-11-26T10:05:22 IST" name="configAfterClass" finished-at="2024-11-26T10:05:22 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+        <test-method is-config="true" signature="configAfterSuite()[pri:0, instance:ess.CreateNewProductTest@26275bef]" started-at="2024-11-26T10:06:23 IST" name="configAfterSuite" finished-at="2024-11-26T10:06:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterSuite -->
+      </class> <!-- ess.CreateNewProductTest -->
+      <class name="ess.CreateNewWareHouseTest">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:ess.CreateNewWareHouseTest@65f095f8]" started-at="2024-11-26T10:06:11 IST" name="configBeforeClass" finished-at="2024-11-26T10:06:13 IST" duration-ms="1694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configureBeforeMethod()[pri:0, instance:ess.CreateNewWareHouseTest@65f095f8]" started-at="2024-11-26T10:06:13 IST" name="configureBeforeMethod" finished-at="2024-11-26T10:06:16 IST" duration-ms="3443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBeforeMethod -->
+        <test-method signature="createNewWareHouse()[pri:0, instance:ess.CreateNewWareHouseTest@65f095f8]" started-at="2024-11-26T10:06:16 IST" name="createNewWareHouse" finished-at="2024-11-26T10:06:18 IST" duration-ms="2357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewWareHouse -->
+        <test-method is-config="true" signature="configureAfterMethod()[pri:0, instance:ess.CreateNewWareHouseTest@65f095f8]" started-at="2024-11-26T10:06:18 IST" name="configureAfterMethod" finished-at="2024-11-26T10:06:23 IST" duration-ms="4517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:ess.CreateNewWareHouseTest@65f095f8]" started-at="2024-11-26T10:06:23 IST" name="configAfterClass" finished-at="2024-11-26T10:06:23 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+      </class> <!-- ess.CreateNewWareHouseTest -->
+      <class name="ess.LoginToApplicationTest">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:ess.LoginToApplicationTest@10959ece]" started-at="2024-11-26T10:05:42 IST" name="configBeforeClass" finished-at="2024-11-26T10:05:44 IST" duration-ms="2667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configureBeforeMethod()[pri:0, instance:ess.LoginToApplicationTest@10959ece]" started-at="2024-11-26T10:05:44 IST" name="configureBeforeMethod" finished-at="2024-11-26T10:05:45 IST" duration-ms="1065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBeforeMethod -->
+        <test-method signature="loginToApplication()[pri:0, instance:ess.LoginToApplicationTest@10959ece]" started-at="2024-11-26T10:05:45 IST" name="loginToApplication" finished-at="2024-11-26T10:05:45 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in to Application: ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method is-config="true" signature="configureAfterMethod()[pri:0, instance:ess.LoginToApplicationTest@10959ece]" started-at="2024-11-26T10:05:45 IST" name="configureAfterMethod" finished-at="2024-11-26T10:05:50 IST" duration-ms="4189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:ess.LoginToApplicationTest@10959ece]" started-at="2024-11-26T10:05:50 IST" name="configAfterClass" finished-at="2024-11-26T10:05:50 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+      </class> <!-- ess.LoginToApplicationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- suite_regressionTest -->
+</testng-results>

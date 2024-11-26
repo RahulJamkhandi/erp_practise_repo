@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite_smoke]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="ess.CreateNewContactTest">
+        <methods>
+          <include name="configBeforeClass"/>
+          <include name="createNewContact"/>
+          <include name="configureBeforeMethod"/>
+          <include name="configAfterSuite"/>
+          <include name="configureAfterMethod"/>
+          <include name="configAfterClass"/>
+          <include name="configBeforeSuite"/>
+        </methods>
+      </class> <!-- ess.CreateNewContactTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [suite_smoke] -->
